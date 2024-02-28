@@ -26,8 +26,25 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.card-container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.first {
+  transform: translateX(0);
+}
+
+.last {
+  transform: translateX(-100%);
+}
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+body{
+  background-color: #1e242e;
+  /* background-color: white; */
 }
