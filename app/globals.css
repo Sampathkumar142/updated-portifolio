@@ -38,13 +38,12 @@ body {
   transform: translateX(-100%);
 }
 
-
-@layer utilities {
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-body{
+} */
+body {
   background-color: #1e242e;
   /* background-color: white; */
 }
