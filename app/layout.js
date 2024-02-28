@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="icon.jpeg" type="image/jpeg" />
       </head>
-      <body   className={inter.className}>{children}</body>
+      <body className={inter.className + "sm:mx-12 mx-6"}>{children}</body>
     </html>
   );
 }
