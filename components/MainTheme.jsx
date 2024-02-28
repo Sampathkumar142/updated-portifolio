@@ -4,7 +4,7 @@ import { BiLogoLinkedinSquare, BiLogoGithub, BiLogoInstagram, BiCodeAlt } from '
 const MainTheme = () => (
   <section className="m-3 ph:grid ph:grid-cols-2 ph:gap-20  flex h-[90vh] flex-col">
     <div className='ph:h-[80vh]  h-[50%] w-full ph:mt-6 ph:items-center ph:justify-end  flex justify-center '>
-    <img  className=' ph:h-[60%] h-full ph:w-[50%] w-[80%] rounded-md' src="/asserts/bg.JPG" alt="bg"  />
+    <img  className=' ph:h-[60%] h-full ph:w-[50%] w-[80%] rounded-md' src="/asserts/BG.JPG" alt="bg"  />
     </div>
     <div className="flex flex-col ph:h-[80vh] justify-start ph:justify-center  ">
       <div className="flex flex-col mx-2 ph:mt-[25%] ph:mb-5 mt-4 ">
